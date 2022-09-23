@@ -1,0 +1,28 @@
+.container {
+  width: 55vw;
+  height: 30vh;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    margin-top: 5%;
+    width: 100vw !important;
+    height: 50vh !important;
+  }
+
+  .container > canvas {
+    height: 40vh !important;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 1024px) {
+  .container {
+    width: 100vw !important;
+    height: 70vh !important;
+    margin-top: 8%;
+  }
+
+  .container > canvas {
+    height: 50vh !important;
+  }
+}

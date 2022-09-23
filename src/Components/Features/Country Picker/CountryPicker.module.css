@@ -1,0 +1,14 @@
+.container {
+  height: fit-content;
+}
+
+.countriesList {
+  text-align: center;
+  background-color: green;
+}
+
+@media screen and (min-width: 501px) and (max-width: 1024px) {
+  .container {
+    margin-top: 5%;
+  }
+}

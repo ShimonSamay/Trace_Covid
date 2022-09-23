@@ -1,0 +1,29 @@
+.container {
+    width: 100vw;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image {
+    width: 15vw;
+    height: fit-content;
+    margin-top: 2% ;
+}
+
+@media screen and (max-width:500px) {
+  .image {
+    width:  30vw;
+    height: 7vh;
+    margin-top: 5%;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 1024px) {
+  .image {
+     width: 35vw;
+     margin-top: 5%;
+  }
+}

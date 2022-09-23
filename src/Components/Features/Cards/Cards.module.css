@@ -1,0 +1,53 @@
+.container {
+  width: 55%;
+  height: fit-content;
+  display: flex;
+  margin: 1.5% 0;
+}
+
+.card {
+  width: 23vw;
+  height: fit-content;
+}
+
+.infection {
+  border-bottom: 4px solid cornflowerblue;
+}
+
+.deaths {
+  border-bottom: 4px solid red;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 100vw;
+    height: fit-content;
+    margin: 1.5% 0;
+  }
+
+  .cardsBox {
+    display: flex;
+    align-items: center;
+    height: 40vh;
+  }
+
+  .card {
+    width: 70%;
+    height: 18vh;
+  }
+
+  .card > div > h4 + p {
+    margin-top: 0 !important;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 1024px) {
+  .container {
+    width: 85%;
+    margin-top: 3%;
+  }
+  .card {
+    width: 45%;
+    height: 100%;
+  }
+}
