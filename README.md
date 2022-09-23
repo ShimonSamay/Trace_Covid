@@ -5,7 +5,8 @@
 ## 🛠 Developed using :
  ✔ React \
  ✔ Material Ui \
- ✔ Chart.js
+ ✔ Chart.js \
+ ✔ [Mathdro api](https://covid19.mathdro.id/)
  
  ![Screenshot](https://user-images.githubusercontent.com/87431321/191938984-1c958893-e4d0-4c87-a9f0-916b0aff1f83.png)
 
