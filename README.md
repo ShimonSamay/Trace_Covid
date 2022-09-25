@@ -1,6 +1,6 @@
 # 🌎 Trace Covid 🌎  
 
-**A web application that provides up-to-date information about number of active and death covid-19 cases around the world.**
+**A web application that provides up-to-date information about active and death covid-19 cases around the world.**
 
 ## 🛠 Developed using :
  ✔ React \
